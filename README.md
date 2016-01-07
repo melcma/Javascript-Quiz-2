@@ -3,6 +3,8 @@ Gulp Basic Boilerplate
 
 Simple quizz using pure javascript + bootstrap
 
+Demo: http://rugbywebdev.co.uk/quiz/
+
 Version
 ==========================
 

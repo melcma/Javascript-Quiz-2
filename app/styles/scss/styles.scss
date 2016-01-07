@@ -1,0 +1,55 @@
+$primaryColor: rgb(110, 220, 200);
+$secondaryColor: rgb(70, 180, 200);
+
+body{
+  font-family: open-sans;
+  background: $primaryColor;
+  text-align: center;
+}
+
+h1{
+  text-align: center;
+}
+
+.wrapper{
+  width: 60%;
+  margin: 50px auto 0 auto;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  background: rgb(255, 255, 255);
+
+  .container{
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .question{
+    text-align: center;
+    font-size: 1.5em;
+  }
+
+  .input{
+    box-sizing: border-box;
+    display: inline-block;
+    width: 49%;
+  }
+  button{
+    width: 100%;
+    padding: 6px 8px;
+    font-size: 1.3em;
+    margin: 8px 0;
+    background: $primaryColor;
+    border: 0px;
+    text-align: center;
+    color: #fff;
+
+    &:hover{
+      background: $secondaryColor;
+    }
+  }
+
+}
+
+*{
+  border: 0px solid red;
+}
